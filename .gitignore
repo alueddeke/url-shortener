@@ -3,16 +3,25 @@
 backend/.env
 
 # Python cache files
-__pycache__/
+**/__pycache__/
 *.pyc
 *.pyo
+*.pyd
+__pycache__/
 
 # Virtual environments
 venv/
 backend/venv/
+env/
+ENV/
 
 # Database
 *.sqlite3
+db.sqlite3
+
+# Django
+*.log
+local_settings.py
 
 # Next.js
 node_modules/
@@ -33,3 +42,12 @@ frontend/*.tsbuildinfo
 # ESLint
 .eslintcache
 frontend/.eslintcache
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
